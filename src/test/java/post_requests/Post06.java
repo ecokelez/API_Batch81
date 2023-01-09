@@ -4,7 +4,6 @@ import base_url.DummyRestApiBaseUrl;
 import io.restassured.http.ContentType;
 import io.restassured.response.Response;
 import org.junit.Test;
-import pojos.BookingPojo;
 import pojos.DummyRestApiDataPojo;
 import pojos.DummyRestApiResonseBodyPojo;
 import utils.ObjectMapperUtils;
@@ -94,7 +93,7 @@ public class Post06 extends DummyRestApiBaseUrl {
         assertEquals(200,response.statusCode());
         assertEquals(expectedData.getEmployee_name(),actualData.getData().getEmployee_name());
         assertEquals(expectedData.getEmployee_salary(),actualData.getData().getEmployee_salary());
-        assertEquals(expectedData.getEmployee_ag(),actualData.getData().getEmployee_ag());
+        assertEquals(expectedData.getEmployee_age(),actualData.getData().getEmployee_age());
         assertEquals(expectedData.getProfile_image(),actualData.getData().getProfile_image());
         assertEquals("Successfully! Record has been added.",actualData.getMessage()); // => Hard Codding
 
