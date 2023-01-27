@@ -5,6 +5,7 @@ import io.restassured.response.Response;
 import org.junit.Test;
 
 import static io.restassured.RestAssured.given;
+import static org.junit.Assert.assertEquals;
 
 public class Delete01 extends JsonplaceholderBaseUrl {
        /*
@@ -25,5 +26,8 @@ public class Delete01 extends JsonplaceholderBaseUrl {
         //Send the Request and Get the Response
        Response response = given().spec(spec).when().delete("/{first}/{second}");
         response.prettyPrint();
+        //Do Assertion
+        assertEquals(200,response.statusCode());
+        assertEquals(2,response.asString().replaceAll("\\s","").length());
     }
 }

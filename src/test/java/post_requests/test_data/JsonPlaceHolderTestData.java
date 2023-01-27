@@ -1,4 +1,4 @@
-package test_data;
+package post_requests.test_data;
 
 import java.util.HashMap;
 import java.util.Map;

@@ -2,9 +2,8 @@ package get_request_classwork;
 
 import base_url.JsonplaceholderBaseUrl;
 import io.restassured.response.Response;
-import org.junit.Assert;
 import org.junit.Test;
-import test_data.JsonPlaceHolderTestData;
+import post_requests.test_data.JsonPlaceHolderTestData;
 
 import java.util.HashMap;
 import java.util.Map;
