@@ -19,9 +19,14 @@ public class Get01b {
         And
             Status Line should be HTTP/1.1 200 OK
 
-          => Test Case yazdık ve Url erismek icin Swagger dokuman ulasmak gerekir
+            => Test Case yazdık ve Url erismek icin Swagger dokuman ulasmak gerekir
            Swagger dokumnan. ise bana hangi EdnPoint'i- hangi Url'i ne is icin kullanmam gerek. soyleyecek,
            hangi body ile kullanmam gerek. soyleyecek
+           ==> Swagger, REST API'lerini tasarlamanıza, oluşturmanıza, belgelemenize ve  kullanmamıza
+            yardımcı olabilecek; OpenAPI Spesifikasyonu etrafında oluşturulmuş açık kaynaklı bir araçtır.
+           ● Swagger’ın önemli bir amacı RestApi ler için bir arayüz sağlamaktır. Bu, insanların
+           kaynak koda erişmeden RestApi lerin özelliklerini görmesine, incelemesine ve
+           anlamasına olanak sağlar
 
      */
 
