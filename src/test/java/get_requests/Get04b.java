@@ -28,7 +28,7 @@ public class Get04b extends base_url.RestfulBaseUrl {
     @Test
     public void get04() {
         // Set the Url
-        spec.pathParams("first","booking").queryParam("firstname","John","lastname","Smith");
+        spec.pathParams("first","booking").queryParams("firstname","John","lastname","Smith");
         //Set The Expected Data
         //Send The Request and Get The Respons
        Response response =  given().spec(spec).when().get("/{first}");
