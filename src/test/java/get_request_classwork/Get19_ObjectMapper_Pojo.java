@@ -4,7 +4,6 @@ import base_url.JsonplaceholderBaseUrl;
 import io.restassured.response.Response;
 import org.junit.Test;
 import pojos.JsonPlaceHolderPojo;
-import post_requests.test_data.JsonPlaceHolderTestData;
 import utils.ObjectMapperUtils;
 
 import static io.restassured.RestAssured.given;

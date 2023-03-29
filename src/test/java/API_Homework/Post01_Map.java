@@ -4,7 +4,7 @@ import base_url.ReqresBaseUrl;
 import io.restassured.http.ContentType;
 import io.restassured.response.Response;
 import org.junit.Test;
-import post_requests.test_data.ReqresTestData;
+import test_data.ReqresTestData;
 
 import java.util.HashMap;
 import java.util.Map;

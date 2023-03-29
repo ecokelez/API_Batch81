@@ -5,7 +5,7 @@ import io.restassured.http.ContentType;
 import io.restassured.response.Response;
 import org.codehaus.jackson.map.ObjectMapper;
 import org.junit.Test;
-import post_requests.test_data.ReqresTestData;
+import test_data.ReqresTestData;
 
 import java.io.IOException;
 import java.util.HashMap;
